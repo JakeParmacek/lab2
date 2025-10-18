@@ -35,7 +35,7 @@ function greeting(){
     // update the content in html
     document.getElementById("greet").innerHTML = "Hello " + name + " !";
     // send the data to the server 
-    to_server(name);
+    //to_server(name);
     client();
 
 }

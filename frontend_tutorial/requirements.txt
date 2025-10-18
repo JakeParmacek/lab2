@@ -1,0 +1,16 @@
+# PiCar-X Server Requirements
+# Install these dependencies on your Raspberry Pi
+
+# PiCar-X library (install from SunFounder repository)
+# git clone https://github.com/sunfounder/picar-x.git
+# cd picar-x
+# pip install -e .
+
+# Additional dependencies for PiCar-X
+RPi.GPIO>=0.7.0
+smbus>=1.1
+adafruit-circuitpython-servokit>=1.3.0
+adafruit-circuitpython-pca9685>=3.4.0
+
+# For the server functionality
+flask>=2.0.0

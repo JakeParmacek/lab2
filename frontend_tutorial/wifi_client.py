@@ -1,6 +1,6 @@
 import socket
 
-HOST = "192.168.2.2" # IP address of your Raspberry PI
+HOST = "10.183.1.15" # IP address of your Raspberry PI
 PORT = 65432          # The port used by the server
 
 with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
